@@ -1,0 +1,124 @@
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .column {
+    width: 50%;
+  }
+}
+
+img,
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+}
+
+.third_section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  gap: 15px;
+  margin: 50px;
+  /* grid-column-gap: 10px;
+  grid-row-gap: 10px; */
+}
+.image1 {
+  grid-column: 1/2;
+}
+.image2 {
+  grid-column: 2/3;
+}
+.image3 {
+  grid-column: 3/4;
+}
+.image4 {
+  grid-column: 4/5;
+}
+
+#second_section {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#tivoli_section {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  display: inline;
+  gap: 50px;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.4rem;
+}
+header {
+  display: flex;
+  position: sticky;
+  overflow-x: auto;
+  top: 0;
+  padding: 1rem 1rem;
+  gap: 20px;
+  /* box-shadow: 0 12px 28px 0 rgba(0 0 0 0.3); */
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header .logo a {
+  font-size: 2rem;
+}
+
+header .logo {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+/* #styletile {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 1000px;
+  margin-inline: auto;
+} */
+.links {
+  display: flex;
+  flex-flow: wrap;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* .details {
+  font-size: 12px;
+  font-family: Helvetica;
+} */
+.navbar {
+  background-color: white;
+}
+
+/* .nav-links li a {
+  color: black;
+} */
+a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+button {
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+}
